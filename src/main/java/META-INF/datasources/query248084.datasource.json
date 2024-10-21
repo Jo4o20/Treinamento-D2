@@ -1,0 +1,120 @@
+{
+  "customId": "periodoCustom",
+  "queryName": "Periodo Custom",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Periodo",
+  "entityFullName": "app.entity.Periodo",
+  "query": {
+    "isValid": true,
+    "rulesEntity": [
+      {
+        "entity": "Periodo",
+        "alias": "p",
+        "namespace": "app.entity.Periodo"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "p"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "not": false,
+      "valid": true,
+      "rules": []
+    }
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": {
+      "type": "server",
+      "blocklyMethod": "beforeInsert",
+      "blocklyClass": "blockly.PeriodoControl",
+      "blocklyLanguage": "java",
+      "blocklyParams": [
+        {
+          "id": "5bbe2dcd",
+          "name": "Periodo\u0026lt;app.entity.Periodo\u0026gt;",
+          "value": "data",
+          "type": "CUSTOM"
+        }
+      ],
+      "blocklyJson": {
+        "namespace": "blockly.PeriodoControl",
+        "sourcePath": "src/main/java/blockly/PeriodoControl.blockly",
+        "language": "java",
+        "methods": [
+          {
+            "name": "beforeInsert",
+            "hasReturn": "false",
+            "params": [
+              "Periodo\u0026lt;app.entity.Periodo\u0026gt;"
+            ]
+          }
+        ]
+      }
+    },
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "periodo": null,
+    "ativo": null,
+    "datainicial": null,
+    "datafinal": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "periodo": null,
+    "ativo": null,
+    "datainicial": null,
+    "datafinal": null
+  },
+  "security": {
+    "id": null,
+    "periodo": null,
+    "ativo": null,
+    "datainicial": null,
+    "datafinal": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query248084/",
+  "audit": false,
+  "swagger": false,
+  "library": false
+}
